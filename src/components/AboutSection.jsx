@@ -7,7 +7,7 @@ export default function AboutSection() {
     { number: '2', label: 'Projects Completed' },
     { number: '1', label: 'University year' },
     { number: '1', label: 'work experience' },
-    { number: '100', label: 'excitment level' },
+    { number: '100', label: 'excitement level' },
   ]
 
   const interests = [
