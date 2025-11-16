@@ -24,7 +24,7 @@ export default function AboutSection() {
       <div className="about-container">
         <div className="about-header">
           <span className="section-tag">About Me</span>
-          <h2 className="section-title">Hoping to make a difference in the world</h2>
+          <h2 className="section-title">Passionate Developer</h2>
           <p>
           
           </p>

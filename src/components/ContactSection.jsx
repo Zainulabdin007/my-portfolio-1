@@ -32,15 +32,15 @@ export default function ContactSection() {
       // Configure EmailJS with your service ID, template ID, and public key
       // You'll need to replace these with your actual EmailJS credentials
       await emailjs.send(
-        'YOUR_SERVICE_ID', // Replace with your EmailJS service ID
-        'YOUR_TEMPLATE_ID', // Replace with your EmailJS template ID
+        service_kqbqq5q, // Replace with your EmailJS service ID
+        template_b9k3p5r, // Replace with your EmailJS template ID
         {
           from_name: formData.name,
           from_email: formData.email,
           subject: formData.subject,
           message: formData.message,
         },
-        'YOUR_PUBLIC_KEY' // Replace with your EmailJS public key
+        Fw3IgpoNsQtPvQMgT // Replace with your EmailJS public key
       )
 
       setStatus('Message sent successfully!')
