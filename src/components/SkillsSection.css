@@ -1,0 +1,146 @@
+.skills-section {
+  min-height: 100vh;
+  padding: 8rem 2rem 4rem;
+  background: linear-gradient(180deg, #3d0000 0%, #2a0000 100%);
+  position: relative;
+}
+
+.skills-container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.skills-header {
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.skills-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 3rem;
+  margin-bottom: 5rem;
+}
+
+.skill-category {
+  background: rgba(255, 68, 68, 0.1);
+  border: 1px solid rgba(255, 68, 68, 0.2);
+  border-radius: 20px;
+  padding: 2.5rem;
+  backdrop-filter: blur(10px);
+  transition: all 0.3s ease;
+}
+
+.skill-category:hover {
+  background: rgba(255, 68, 68, 0.15);
+  border-color: #ff4444;
+  box-shadow: 0 8px 25px rgba(255, 68, 68, 0.3);
+  transform: translateY(-3px);
+}
+
+.skill-category h3 {
+  font-size: 1.8rem;
+  color: #ff4444;
+  margin-bottom: 2rem;
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+.skill-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.skill-item {
+  width: 100%;
+}
+
+.skill-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.skill-name {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #fff;
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+.skill-percentage {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #ff4444;
+}
+
+.skill-bar-container {
+  width: 100%;
+  height: 10px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+}
+
+.skill-bar {
+  height: 100%;
+  border-radius: 10px;
+  position: relative;
+  transition: all 0.3s ease;
+  background: linear-gradient(90deg, #ff4444, #ff6666);
+  box-shadow: 0 0 20px rgba(255, 68, 68, 0.4);
+}
+
+.technologies-grid {
+  margin-top: 5rem;
+  text-align: center;
+}
+
+.technologies-grid h3 {
+  font-size: 2.5rem;
+  color: #fff;
+  margin-bottom: 2.5rem;
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+.tech-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.tech-tag {
+  background: rgba(255, 68, 68, 0.1);
+  border: 1px solid rgba(255, 68, 68, 0.3);
+  border-radius: 25px;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: 'Space Grotesk', sans-serif;
+  box-shadow: 0 4px 15px rgba(255, 68, 68, 0.2);
+  backdrop-filter: blur(10px);
+}
+
+.tech-tag:hover {
+  background: rgba(255, 68, 68, 0.2);
+  border-color: #ff4444;
+  color: #ff4444;
+  box-shadow: 0 6px 20px rgba(255, 68, 68, 0.4);
+  transform: translateY(-2px);
+}
+
+@media (max-width: 968px) {
+  .skills-content {
+    grid-template-columns: 1fr;
+  }
+
+  .section-title {
+    font-size: 2.5rem;
+  }
+}

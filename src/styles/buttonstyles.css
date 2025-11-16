@@ -1,0 +1,27 @@
+.hover-underline {
+  font-family: 'Anton', sans-serif;
+  font-weight: 400;
+  font-size: 1.8rem;
+  position: relative;
+  margin: 0 8px;
+  color: inherit;
+  text-transform: none;
+  background: none; /* avoids any background conflicts */
+  border: none;     /* avoids any default border */
+  box-shadow: none; /* removes MUI hover box-shadow */
+}
+
+.hover-underline::after {
+  content: "";
+  position: absolute;
+  bottom: 4px;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background-color: white;
+  transition: width 0.3s ease-in-out;
+}
+
+.hover-underline:hover::after {
+  width: 100%;
+}

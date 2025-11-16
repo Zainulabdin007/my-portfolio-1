@@ -1,0 +1,26 @@
+.App {
+  width: 100%;
+  min-height: 100vh;
+  background: #1a0000;
+  color: #fff;
+  font-family: 'Space Grotesk', sans-serif;
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background: #1a0000;
+  color: #fff;
+}
