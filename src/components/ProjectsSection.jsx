@@ -21,7 +21,7 @@ export default function ProjectsSection() {
           <div className="coming-soon-box">
             <div className="coming-soon-icon">🚀</div>
             <h3>Coming Soon</h3>
-            <p>work in progress, currently getting hosed by University!</p>
+            <p>work in progress, check back soon!</p>
           </div>
         </div>
       </div>

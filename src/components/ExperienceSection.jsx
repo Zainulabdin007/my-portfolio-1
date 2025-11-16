@@ -38,7 +38,7 @@ export default function ExperienceSection() {
               <div className="coming-soon-box">
                 <div className="coming-soon-icon">💼</div>
                 <h3>Coming Soon</h3>
-                <p>I'm actively seeking opportunities and building my professional experience. Check back soon for updates!</p>
+                <p>work in progress, check back soon!</p>
               </div>
             </div>
           </div>
