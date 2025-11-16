@@ -24,9 +24,9 @@ export default function AboutSection() {
       <div className="about-container">
         <div className="about-header">
           <span className="section-tag">About Me</span>
-          <h2 className="section-title">Crafting Digital Experiences</h2>
-          <p className="section-subtitle">
-            I'm a passionate developer who is just starting out in the field of all things tech.
+          <h2 className="section-title">Hoping to make a difference in the world</h2>
+          <p>
+          
           </p>
         </div>
 
@@ -35,7 +35,7 @@ export default function AboutSection() {
             <div className="about-bio">
               <h3>Hello! I'm Zain Bughio</h3>
               <p>
-                I am a beginner in the field of all things tech. I have a few simple projects under my belt and 
+                I am a math undergrad student at the University of Waterloo. I have a few simple projects under my belt and 
                 i am always eager to learn and improve my skills. I am a quick learner and always looking for new challenges.
                 I am always looking for new opportunities to grow and improve my skills.
                 
