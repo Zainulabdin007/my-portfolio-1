@@ -97,12 +97,12 @@ export default function HeroSection() {
               <span className="code-property">skills</span>: [<span className="code-string">'React'</span>, <span className="code-string">'Node.js'</span>, <span className="code-string">'Python'</span>],
             </div>
             <div className="code-line indent">
-              <span className="code-property">passion</span>: <span className="code-string">'Making a difference in the world'</span>
+              <span className="code-property">passion</span>: <span className="code-string">'Building things nobody asked for'</span>
             </div>
             <div className="code-line">{'};'}</div>
           </div>
         </div>
-      </div>
+      </div>x
 
       <div className="scroll-indicator" onClick={scrollToAbout}>
         <svg width="24" height="24" viewBox="0 0 24 24" fill="none">

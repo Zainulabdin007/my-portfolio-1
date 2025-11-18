@@ -31,7 +31,7 @@ export default function SkillsSection() {
   const technologies = [
     'React', 'JavaScript', 'HTML/CSS', 'TypeScript',
     'Python', 'Java', 'Fast API',
-    'Git',
+    'Git', 'Racket'
   ]
 
   return (

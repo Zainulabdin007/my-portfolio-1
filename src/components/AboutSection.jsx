@@ -14,9 +14,9 @@ export default function AboutSection() {
     { icon: '💻', title: 'Web Development', desc: 'some experience with web development' },
     { icon: '🎨', title: 'UI/UX Design', desc: 'beginner in UI/UX Design' },
     { icon: '📱', title: 'Mobile Apps', desc: 'want to learn mobile app development' },
-    { icon: '🤖', title: 'Prompt engineering', desc: 'Cursor pro' },
+    { icon: '🤖', title: 'Prompt engineering', desc: 'AI expert' },
     { icon: '🎮', title: 'Game Dev', desc: 'excited to learn in the future' },
-    { icon: '📚', title: 'Learning', desc: 'Always improving skills' },
+    { icon: '📚', title: 'LeetCode', desc: 'Always improving skills' },
   ]
 
   return (
@@ -26,7 +26,7 @@ export default function AboutSection() {
           <span className="section-tag">About Me</span>
           <h2 className="section-title">Passionate Developer</h2>
           <p>
-          
+        
           </p>
         </div>
 
