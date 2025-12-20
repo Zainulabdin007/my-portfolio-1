@@ -98,7 +98,7 @@ export default function ContactForm({ onClose }) {
           {status === 'sending' ? 'Sending...' : 'Send'}
         </button>
 
-        {status === 'success' && <p style={{ color: '#0f0', marginTop: '1rem' }}>Message sent successfully!</p>}
+        {status === 'success' && <p style={{ color: '#0f0', marginTop: '1rem' }}>Message sent yerrrrrrr successfully!</p>}
         {status === 'error' && <p style={{ color: 'red', marginTop: '1rem' }}>Failed to send message. Please try again.</p>}
 
         <button
