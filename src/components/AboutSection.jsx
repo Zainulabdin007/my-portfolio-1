@@ -37,7 +37,8 @@ export default function AboutSection() {
               <p>
                 I am a math undergrad student at the University of Waterloo. I have a few simple projects under my belt and 
                 i am always eager to learn and improve my skills. I am a quick learner and always looking for new challenges.
-                I am always looking for new opportunities to grow and improve my skills.
+                I am always looking for new opportunities to grow and improve my skills. Currently looking for Software Engineering and Data analyst
+                internships for summer 2026. 
                 
               </p>
               <p>
@@ -48,7 +49,7 @@ export default function AboutSection() {
               </p>
               <p>
                 When I'm not coding, you can find me exploring new things, I'm always eager to learn
-                and take on new challenges that push me out of my comfort zone.
+                and take on new challenges that push me out of my comfort zone. 
               </p>
             </div>
 
