@@ -59,7 +59,7 @@ export default function ContactSection() {
       icon: '📧',
       title: 'Email',
       value: 'zain@example.com',
-      link: 'Zainulabdinbughio410@gmail.com',
+      link: 'Zainulabdinbughio.007@gmail.com',
     },
     {
       icon: '📱',
