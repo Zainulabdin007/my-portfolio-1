@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/my-portfolio-1/',  // Update this to match your GitHub repository name
+  base: '/',  // Vercel doesn't need a subdirectory path
 })
